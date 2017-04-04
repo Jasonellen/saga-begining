@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import {connect} from 'react-redux'
 import CounterAction1 from '../redux/counterReducer1'
+import './styles/index.scss'
 class Counter1 extends Component {
 
   render() {
@@ -9,7 +10,7 @@ class Counter1 extends Component {
     return (
       <div>
         <button onClick={()=>minus('第一组的减')}>-</button>
-        <input type="text" style={{width:'30px',textAlign:'center'}} value={value}/>
+        <input type="text"  value={value}/>
         <button onClick={()=>plus('第一组的加')}>+</button>
       </div>
     );

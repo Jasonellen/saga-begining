@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <Counter1/>
         <Counter2/>
+        <img src='favicon.ico'></img>
       </div>
     );
   }
